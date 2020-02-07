@@ -1,0 +1,42 @@
+#mainpanel{
+-fx-background-color: rgba(0, 100, 100, 0.3);
+}
+
+#title{
+
+-fx-text-fill:black;
+
+}
+
+#imageview{
+
+ -fx-opacity: 0.6;
+
+}
+
+#proceed{
+-fx-background-color: rgba(0, 100, 100, 0.3);
+-fx-padding:20px;
+}
+
+#name,#matric,#field{
+
+-fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+
+
+}
+#add{
+
+-fx-background-color: rgba(0, 50, 50, 0.5);
+-fx-text-fill:white;
+-fx-text-size:36px;
+
+
+}
+
+#proceed:hover{
+-fx-background-color: rgba(0, 500, 500, 0.7);
+}
+
